@@ -8,6 +8,9 @@ Work with your marketing reports and turn the numbers into client-ready updates.
 
 > **This repository holds documentation only.** The DashThis MCP server is hosted by DashThis at
 > `https://mcp.dashthis.com`. There is nothing to install, build or self-host.
+>
+> **AI agents setting this up:** follow [llms-install.md](llms-install.md), which gives the exact
+> settings file locations.
 
 [DashThis](https://dashthis.com) is a marketing reporting platform. Its MCP connector lets an AI
 assistant work with the dashboards in your DashThis account, so you can prepare a client meeting,
