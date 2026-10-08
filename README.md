@@ -86,6 +86,23 @@ Add this to `.vscode/mcp.json`:
 }
 ```
 
+### Cline
+
+Add this to `cline_mcp_settings.json` (MCP Servers → Configure → Configure MCP Servers):
+
+```json
+{
+  "mcpServers": {
+    "dashthis": {
+      "type": "streamableHttp",
+      "url": "https://mcp.dashthis.com"
+    }
+  }
+}
+```
+
+Then choose **Authorize OAuth** on the DashThis server and sign in to DashThis.
+
 ### Other clients
 
 Any MCP client that supports remote servers over Streamable HTTP with OAuth can connect to
