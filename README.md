@@ -88,7 +88,13 @@ Add this to `.vscode/mcp.json`:
 
 ### Cline
 
-Add this to `cline_mcp_settings.json` (MCP Servers → Configure → Configure MCP Servers):
+In Cline, open **MCP** and choose **Add Remote Server**:
+
+- Server name: `dashthis`
+- Server URL: `https://mcp.dashthis.com`
+- Transport: Streamable HTTP
+
+Or choose **Edit Configuration** and merge this into the file it opens:
 
 ```json
 {
@@ -101,7 +107,9 @@ Add this to `cline_mcp_settings.json` (MCP Servers → Configure → Configure M
 }
 ```
 
-Then choose **Authorize OAuth** on the DashThis server and sign in to DashThis.
+Open the configuration through **Edit Configuration** rather than by path: where Cline keeps
+`cline_mcp_settings.json` differs between versions. Then choose **Authorize OAuth** on the DashThis
+server and sign in to DashThis.
 
 ### Other clients
 
